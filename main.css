@@ -2,6 +2,7 @@ body {
   text-align: center;
   background-color: #3AAFA9;
   color: #DEF2F1;
+  font-family: 'Slabo', 'PT Serif', serif;
 }
 
 .bottom-border {
@@ -22,7 +23,9 @@ p .navbar {
 
 h1, h2, h3 {
   color: #16252A;
+  font-family: 'Montserrat', 'Roboto Condensed', sans-serif;
 }
+
 .logo {
   height: 35%;
   width: 35%;
