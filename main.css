@@ -171,3 +171,31 @@ a {
 .me {
   border-bottom: solid #16252A 1px;
 }
+
+@media screen and (max-width: 900px) {
+  .member1, .member2, .member3 {
+    height: 200%;
+    width: 110%;
+  }
+  .leadership-title {
+    width: 80%;
+  }
+  .contact-header {
+    width: 250%;
+  }
+  .info-item {
+    width: 250%;
+  }
+  .product-title {
+    width: 150%;
+  }
+  .product-desc {
+    width: 150%;
+  }
+  .ptd {
+    width: 50%;
+  }
+  h1 {
+    width: 70%;
+  }
+}
