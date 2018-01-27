@@ -1,4 +1,170 @@
 body {
-  background-color: #3AAFA9;
   text-align: center;
+  background-color: #3AAFA9;
+  color: #DEF2F1;
+}
+
+.bottom-border {
+  border-bottom: solid #16252A;
+}
+
+.btn {
+  background-color: #DEF2F1;
+}
+
+a:hover {
+  color: #16252A;
+}
+
+p .navbar {
+  color: #FEFFFF;
+}
+
+h1, h2, h3 {
+  color: #16252A;
+}
+.logo {
+  height: 35%;
+  width: 35%;
+  border-radius: 50%;
+}
+
+.navbar {
+  width: 97%;
+  margin-top: 2%;
+  margin: auto;
+}
+
+h1 {
+  width: 30%;
+  margin: auto;
+}
+
+.ptd {
+  width: 35%;
+  margin: auto;
+  margin-top: 1%;
+}
+
+.product {
+  margin-top: 2%;
+}
+
+.product-1 {
+  width: 30%;
+  text-align: left;
+  margin-right: 28%;
+  margin-left: 4%;
+}
+
+.product-2 {
+  float: right;
+  border: solid 1px #16252A;
+  width: 30%;
+  margin-top: 1%;
+  padding-bottom: 0%;
+}
+
+.product-title {
+  width: 47%;
+}
+
+.img-1 {
+  width: 30%;
+  height: 50%;
+  margin-top: 4%;
+}
+
+.img-caption {
+  width: 70%;
+  margin: auto;
+}
+
+.leadership {
+  margin-top: 4%;
+}
+
+.leadership-title {
+  width: 20%;
+  margin: auto;
+}
+
+.member1, .member2, .member3 {
+  width: 25%;
+  border: solid 1px #16252A;
+  margin-top: 2%;
+}
+
+.member-img {
+  width: 50%;
+  height: 25%;
+  border: solid 1px #16252A;
+  border-radius: 50%;
+  margin-top: 3%;
+}
+
+.member-name {
+  margin-top: 3%;
+}
+
+.member-description{
+  text-align: justify;
+}
+
+.contact {
+  margin-top: 2%;
+}
+
+.contact-header {
+  margin-top: 2%;
+  width: 47%;
+}
+
+.info {
+  width: 30%;
+  float: left;
+  text-align: left;
+  margin-left: 18%;
+}
+
+.form {
+  margin-right: 26%;
+  margin-top: 1%;
+}
+
+input, textarea {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 200%;
+}
+
+.message {
+  height: 200px;
+  margin: auto;
+  word-wrap: break-word;
+}
+
+footer {
+  margin-top: 2%;
+}
+
+.text {
+  margin-left: 4.5%;
+}
+
+.smbtns {
+  margin-left: 70%;
+  margin-top: 1%;
+}
+
+a {
+  color: #16252A;
+}
+
+.insta {
+  color: #DEF2F1;
+}
+
+.me {
+  border-bottom: solid #16252A 1px;
 }
