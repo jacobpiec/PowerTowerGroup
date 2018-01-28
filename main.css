@@ -94,13 +94,14 @@ h1 {
 
 .member1, .member2, .member3 {
   width: 25%;
+  height: 100%;
   border: solid 1px #16252A;
   margin-top: 2%;
 }
 
 .member-img {
   width: 40%;
-  height: 25%;
+  height: 30%;
   border: solid 1px #16252A;
   border-radius: 50%;
   margin-top: 3%;
@@ -172,7 +173,7 @@ a {
   border-bottom: solid #16252A 1px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) & (min-width: 700px) {
   .member1, .member2, .member3 {
     height: 200%;
     width: 110%;
@@ -200,5 +201,52 @@ a {
   }
   .img-1 {
     width: 100%;
+  }
+  #product {
+    margin-top: 2%;
+  }
+  .product-2 {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .member1, .member2, .member3 {
+    height: 200%;
+    width: 110%;
+  }
+  .leadership-title {
+    width: 80%;
+  }
+  .contact-header {
+    width: 250%;
+  }
+  .info-item {
+    width: 250%;
+  }
+  .product-title {
+    width: 150%;
+  }
+  .product-desc {
+    width: 150%;
+  }
+  .ptd {
+    width: 50%;
+  }
+  h1 {
+    width: 70%;
+  }
+  .img-1 {
+    width: 50%;
+  }
+  #product {
+    margin-top: 2%;
+  }
+  .product-2 {
+    width: 50%;
+  }
+  body {
+    text-align: center;
+    float: none;
   }
 }
