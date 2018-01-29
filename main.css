@@ -132,20 +132,31 @@ h1 {
 }
 
 .form {
-  margin-right: 26%;
+  margin-right: 20%;
   margin-top: 1%;
 }
 
 input, textarea {
   margin-top: 2%;
   margin-bottom: 2%;
-  width: 200%;
+  width: 125%;
+}
+
+.contactForm {
+  width: 40%;
+  background-color: #DEF2F1;
+  margin-right: 10%;
+  border-radius: 2%;
 }
 
 .message {
   height: 200px;
   margin: auto;
   word-wrap: break-word;
+}
+
+.submit {
+  border: solid 1px #16252A;
 }
 
 footer {
