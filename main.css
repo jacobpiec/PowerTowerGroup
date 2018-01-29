@@ -50,7 +50,7 @@ h1 {
 }
 
 .product {
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .product-1 {
@@ -58,13 +58,14 @@ h1 {
   text-align: left;
   margin-right: 28%;
   margin-left: 4%;
+  margin-top: 5%;
 }
 
 .product-2 {
   float: right;
   border: solid 1px #16252A;
   width: 30%;
-  margin-top: 1%;
+  margin-top: 6%;
   padding-bottom: 0%;
 }
 
