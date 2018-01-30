@@ -3,7 +3,7 @@ body {
   text-align: center;
   background-color: #3AAFA9;
   color: #DEF2F1;
-  font-family: 'Slabo', 'PT Serif', serif;
+  font-family: 'Playfair Display';
 }
 
 .bottom-border {
@@ -24,7 +24,7 @@ p .navbar {
 
 h1, h2, h3, h4 {
   color: #16252A;
-  font-family: 'Montserrat', 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed';
 }
 
 /* Navbar */
@@ -174,6 +174,7 @@ input, textarea {
   width: 125%;
   border: solid 1px #16252A;
   color: #16252A;
+  background-color: #DEF2F1;
 }
 
 .contactForm {
