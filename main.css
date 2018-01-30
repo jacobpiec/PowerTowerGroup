@@ -22,15 +22,15 @@ p .navbar {
   color: #FEFFFF;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   color: #16252A;
   font-family: 'Montserrat', 'Roboto Condensed', sans-serif;
 }
 
 /* Navbar */
 .logo {
-  height: 35%;
-  width: 35%;
+  height: 10%;
+  width: 10%;
   border-radius: 50%;
 }
 
@@ -38,6 +38,11 @@ h1, h2, h3 {
   width: 97%;
   margin-top: 2%;
   margin: auto;
+}
+
+h4 {
+  margin-left: 2%;
+  margin-top: 3%;
 }
 
 /* Intro */
@@ -89,12 +94,14 @@ h1 {
 
 .spec {
   width: 25%;
-  height: auto%;
-  border: solid 1px #16252A;
+  height: auto;
   margin-top: 2%;
   text-align: left;
   margin-left: 4%;
   margin-right: 4.25%;
+  background-color: #16252A;
+  border-radius: 2%;
+  padding-right: 1%;
 }
 
 .infoIcon {
@@ -165,6 +172,8 @@ input, textarea {
   margin-top: 2%;
   margin-bottom: 2%;
   width: 125%;
+  border: solid 1px #16252A;
+  color: #16252A;
 }
 
 .contactForm {
@@ -182,6 +191,11 @@ input, textarea {
 
 .submit {
   border: solid 1px #16252A;
+}
+
+::placeholder {
+  color: #16252A;
+  opacity: 1; /* For all you firefox users :) */
 }
 
 /* Footer */
@@ -246,6 +260,9 @@ a {
   .product-2 {
     width: auto;
   }
+  .spec {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -286,5 +303,8 @@ a {
   body {
     text-align: center;
     float: none;
+  }
+  .spec {
+    width: 100%;
   }
 }
