@@ -264,6 +264,17 @@ a {
   .spec {
     width: 100%;
   }
+  form {
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+  .info {
+    margin-left: 0%;
+    width: 100%;
+  }
+  .form {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -275,7 +286,7 @@ a {
     width: 80%;
   }
   .contact-header {
-    width: 250%;
+    width: 30%;
   }
   .info-item {
     width: 250%;
@@ -299,7 +310,8 @@ a {
     margin-top: 2%;
   }
   .product-2 {
-    width: 50%;
+    width: 60%;
+    margin-bottom: 3%;
   }
   body {
     text-align: center;
@@ -307,5 +319,17 @@ a {
   }
   .spec {
     width: 100%;
+    margin-top: 5%;
+  }
+  form {
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+  .info {
+    margin-left: 0%;
+    width: 100%;
+  }
+  .form {
+    width: 50%;
   }
 }
