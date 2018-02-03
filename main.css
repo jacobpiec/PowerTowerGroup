@@ -45,6 +45,15 @@ h4 {
   margin-top: 3%;
 }
 
+/* Background Image */ 
+.background {
+  margin-top: 2%;
+  height: 200%;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 /* Intro */
 h1 {
   width: 30%;
