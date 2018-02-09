@@ -27,6 +27,11 @@ h1, h2, h3, h4 {
   font-family: 'Roboto Condensed';
 }
 
+.wide {
+  width: auto;
+  text-align: center;
+}
+
 /* Navbar */
 .logo {
   height: 10%;
@@ -278,15 +283,16 @@ a {
     padding-right: 0px;
   }
   .info {
-    margin-left: 0%;
+    margin-left: 10%;
     width: 100%;
+    min-width: 75%;
   }
   .form {
     width: 50%;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) & (min-width: 400px) {
   .member1, .member2, .member3 {
     height: 200%;
     width: 110%;
@@ -334,11 +340,97 @@ a {
     padding-top: 0px;
     padding-right: 0px;
   }
-  .info {
-    margin-left: 0%;
+  #contactForm {
     width: 100%;
+    padding-right: 0px;
+    margin-left: 15%;
   }
-  .form {
+  .info {
+    margin-left: 25%;
     width: 50%;
   }
+  .contact-header {
+    width: auto;
+  }
+  #contact {
+    width: auto;
+  }
 }
+
+@media screen and (max-width: 400px) {
+  .member1, .member2, .member3 {
+    height: 200%;
+    width: 110%;
+    }
+  .leadership-title {
+      width: 80%;
+    }
+  .contact-header {
+      width: 30%;
+    }
+    .info-item {
+      width: 250%;
+    }
+    .product-title {
+      width: 300%;
+      text-align: center;
+    }
+    .product-desc {
+      width: 300%;
+      text-align: center;
+      font-size: 90%;
+    }
+    h1 {
+      width: 70%;
+    }
+    .img-1 {
+      width: 100%;
+      margin-left: 30%;
+      margin-right: 30%;
+    }
+    .img-caption {
+      width: 100%;
+      text-align: center;
+      margin-left: 30%;
+    }
+    #product {
+      margin-top: 2%;
+    }
+    .product-2 {
+      width: 60%;
+      margin-bottom: 3%;
+    }
+    body {
+      text-align: center;
+      float: none;
+    }
+    .spec {
+      width: 100%;
+      margin-top: 5%;
+    }
+    form {
+      padding-top: 0px;
+      padding-right: 0px;
+    }
+    #contactForm {
+      width: 100%;
+      padding-right: 0px;
+      margin-left: 15%;
+    }
+    .info {
+      margin-left: 10%;
+      width: 30%;
+      text-align: left;
+      font-size: 85%;
+    }
+    .contact-header {
+      width: 400%;
+      text-align: center;
+    }
+    #contact {
+      width: auto;
+    }
+  .navbar .right {
+    width: 5%;
+  }
+  }
