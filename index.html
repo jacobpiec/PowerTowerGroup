@@ -1,142 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113187904-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-113187904-1');
-  </script>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Other metadata -->
+  <title>The Power Tower Group</title>
+  <!-- Bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Font Awesome -->
   <script src="https://use.fontawesome.com/4595b49cbd.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="main.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="main.css">
+  <!-- Javascript & jQuery -->
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
   <!-- Serif Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Merriweather|PT+Serif|Playfair+Display|Slabo+27px" rel="stylesheet">
   <!-- Sans Serif Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300|Raleway|Roboto+Condensed|Source+Sans+Pro" rel="stylesheet">
-  <title>Power Tower Group</title>
 </head>
 
 <body>
   <div class="container-fluid">
-   <div class="page">
-    <!-- Nav -->
-    <div class="navbar row">
-      <div class="row">
-        <img src='https://s13.postimg.org/mppdq7e7b/IMG_4393.jpg' alt="Power Tower Group" class="logo">
-        <h4>The Power Tower Group</h4>
-      </div>
-      <div class="right">
-        <p class="btn but"><a href="#mainPage">Home</a></p>
-        <p class="btn but"><a href="#product">Our Product</a></p>
-        <p class="btn but"><a href="#staff">Our Leadership</a></p>
-        <p class="btn but"><a href="#contact">Contact</a></p>
-      </div>
-    </div>
-    <div class="mainPage" id="mainPage">
+    <!-- Intro Page -->
+    <div class="intro">
+      <h1>Power Tower Group</h1>
+      <p class="desc ptgDesc">The power tower creates a revolution in the wireless charging industry. Being able to charge devices from up to three meters away, this prouct is like no other.</p>
+      <p class="down-text"><a href="#product" id="down">See More</a></p>
       <img class="background" src="https://s14.postimg.org/pllmpvrtt/IMG_4696.png" alt="Background Image">
     </div>
-    <div class="rest">
-      <div id="product">
-        <div class="row">
-          <div class="product-1">
-            <h2 class="product-title bottom-border">Our Product</h2>
-            <p class="product-desc">The Power Tower Group is a team of engineers and computer scientists who are on a mission to make truly wireless charging a reality. And we don’t mean the “wireless chargers” that force you to place your phone on a pad in order for it to receive power, we mean standing 3 meters away from the charging station and having your device charge without wires or cables.</p>
-          </div>
-          <div class="product-2">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Coat_of_arms_placeholder_with_question_mark_and_no_border.png" alt="At the moment, we do not have an image of the product" class="img-1">
-            <p class="img-caption">At the moment, the Power Tower has not been developed.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="distance spec">
-            <i class="fa fa-exchange infoIcon fa-2x"></i>
-            <ul>
-              <li>Superior charging distance</li>
-              <li>Able to charge from up to three meters away</li>
-            </ul>
-          </div>
-          <div class="spec charging">
-            <i class="fa fa-battery-full fa-2x infoIcon"></i>
-            <ul>
-              <li>More power efficient than competitors</li>
-              <li>Uses less energy than competitors</li>
-            </ul>
-          </div>
-          <div class="spec health">
-            <i class="fa fa-heartbeat fa-2x infoIcon"></i>
-            <ul>
-              <li>100% safe to use in any room</li>
-              <li>Kid-friendly and safe</li>
-            </ul>
-          </div>
-        </div>
+    <!-- Navbar (Should I keep?) 
+    <div class="nav row">
+      <div class="left row">
+        <!-- Logo 
+        <img src='https://s13.postimg.org/mppdq7e7b/IMG_4393.jpg' alt="Power Tower Group" class="logo">
+        <h3 class="logo-title">Power Tower Group</h3>
       </div>
-      <!-- Our Staff -->
-      <div class="leadership" id="staff">
-      <h2 class="bottom-border leadership-title">Our Leadership</h2>
-       <div class="row">
-        <div class="container member1">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" alt="Picture of Seth" class="member-img">
-          <h3 class="bottom-border member-name">Seth</h3>
-          <!--<p class="member-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquam, libero non dictum tincidunt, nisl leo tristique ligula, eu mattis diam metus non lacus. Nullam et ligula luctus sem dignissim dignissim sit amet placerat.</p>-->
-        </div>
-        <div class="container member2">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" alt="Picture of Alex" class="member-img">
-          <h3 class="bottom-border member-name">Alex</h3>
-          <!--<p class="member-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquam, libero non dictum tincidunt, nisl leo tristique ligula, eu mattis diam metus non lacus. Nullam et ligula luctus sem dignissim dignissim sit amet placerat.</p>-->
-        </div>
-        <div class="container member3">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" alt="Picture of Jarda" class="member-img">
-          <h3 class="bottom-border member-name">Jarda</h3>
-          <!--<p class="member-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquam, libero non dictum tincidunt, nisl leo tristique ligula, eu mattis diam metus non lacus. Nullam et ligula luctus sem dignissim dignissim sit amet placerat.</p> -->
-        </div>
+      <div class="right">
+        <a class="btn product" href="#product"><p>Our Product</p></a>
+        <a class="btn staff" href="#staff"><p>Our Staff</p></a>
+        <a class="btn contact" href="#contact"><p>Contact</p></a>
+      </div>
+    </div>-->
+    <div class="invisible" id="rest">
+    <!-- Product -->
+    <div class="product" id="product">
+      <h2 class="title">Our Product</h2>
+      <p class="desc productDesc">Lightweight and stylish, the power tower developed by Power Tower Group is a revolutionary product fit for a king. With the ability to charge all devices from up to three meters away, the power tower is the wireless charger that can do more than any other wireless charger. Developed by a small team, the power tower is greater than all competition.</p>
+    </div>
+    <!-- Staff -->
+    <div class="staff" id="staff">
+      <h2>Our Staff</h2>
+      <div class="staffrow row">
+      <!-- Seth -->
+      <div class="member member1">
+        <img src="http://www.morza.com.tr/altalan/daloglu/img/baskan.png" class="profile">
+        <h3><u>Seth</u></h3>
+      </div>
+      <!-- Jarda --> 
+      <div class="member member2">
+        <img src="http://www.morza.com.tr/altalan/daloglu/img/baskan.png" class="profile">
+        <h3><u>Jarda</u></h3>
+      </div>
+      <!-- Alex -->
+      <div class="member member3">
+        <img src="http://www.morza.com.tr/altalan/daloglu/img/baskan.png" class="profile">
+        <h3><u>Alex</u></h3>
       </div>
       </div>
-      <div class="contact" id="contact">
-      <div class="row" id="rows1">
-       <!-- PTG Contact Info -->
-        <div class="info container" id="info1">
-          <h2 class="contact-header bottom-border">Contact Us</h2>
-          <p class="info-item">Power Tower Group</p>
-          <p class="info-item">(999)-999-9999</p>
-          <p class="info-item">thepowertowergroup@gmail.com</p>
-          <a href="https://www.instagram.com/power_tower_group/" class="insta"><i class="fa fa-instagram"></i></a>
-        </div>
-        <!-- Contact Form -->
-        <div class="contactForm" id="contactForm">
-        <div class="form">
-        <form class="container" action="thepowertowergroup@gmail.com">
-          <input type="text" class="name" name="name" placeholder=" Name" required><br>
-          <input type="email" class="email" name="email" placeholder=" Email" required><br>
-          <textarea type="text" class="message" name="message" placeholder=" Message" required></textarea><br>
-          <input type="submit" class="submit btn" name="submit" placeholder="Submit">
-        </form>
-        </div>
-        </div>
+    </div>
+    <!-- Contact -->
+    <div class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <!-- Power Tower Group contact info -->
+      <div class="info">
+        <p class="info-item">Power Tower Group</p>
+        <p class="info-item">(999)-999-9999</p>
+        <p class="info-item">thepowertowergroup@gmail.com</p>
+        <a href="https://www.instagram.com/power_tower_group/" target="_blank" class="smbtn"><i class="fa fa-instagram smbtn"></i></a>
       </div>
-      </div>
+      <form class="form">
+        <input type="text" placeholder="Name" class="col-md-12 form-item">
+        <input type="email" placeholder="Email" class="col-md-12 form-item">
+        <textarea type="text" placeholder="Message" class="message col-md-12 form-item"></textarea>
+        <input type="submit" placeholder="Submit" class="col-md-12 btn btn-primary form-item">
+      </form>
     </div>
     <!-- Footer -->
     <footer class="footer">
-     <div class="row">
-      <div class="text left">
-        <p>&copy; 2018 Power Tower Group</p>
-        <p>Created by <a href="https://jacobpie.github.io/Portfolio/" class="me" target="_blank">Jacob Pieczynski</a></p>
-      </div>
-      <div class="smbtns right">
-        <a href="https://www.instagram.com/power_tower_group/" class="insta insta1" target="_blank"><i class="fa fa-instagram"></i></a>
-      </div>
+      <p>&copy 2018 Power Tower Group</p>
+      <div class="row">
+      <p>Website developed by </p><a href="#" class="me"><p class="me">Jacob Pieczysnki</p></a>
       </div>
     </footer>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="scripts.js"></script>
   </div>
 </body>
 </html>
