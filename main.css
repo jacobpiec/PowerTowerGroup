@@ -1,436 +1,121 @@
-/* Apply to whole page */
+/* To whole page */
 body {
   text-align: center;
   background-color: #3AAFA9;
   color: #DEF2F1;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
 }
 
-.bottom-border {
-  border-bottom: solid #16252A;
+* {
+  margin: auto;
 }
 
-.btn {
-  background-color: #DEF2F1;
+.desc {
+  width: 35%;
+}
+
+a {
+  color: #DEF2F1;
 }
 
 a:hover {
-  color: #16252A;
+  color: #f3fffd;
 }
 
-p .navbar {
-  color: #FEFFFF;
+p {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: solid black;
+  width: 20%;
+  margin: auto;
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
 
 h1, h2, h3, h4 {
+  font-family: 'Roboto Condensed', sans-serif;
   color: #16252A;
-  font-family: 'Roboto Condensed';
 }
 
-.wide {
-  width: auto;
-  text-align: center;
+/* Intro Page */
+h1 {
+  margin-top: 3%;
+  border: solid black;
+  font-family: sans-serif;
+  width: 50%;
+}
+
+.background {
+  width: 75%;
+  margin-top: 1.5%;
+}
+
+#down, .me {
+  color: #16252A;
+}
+
+.down-text {
+  border-bottom: solid #16252A;
+  width: 10%;
 }
 
 /* Navbar */
 .logo {
-  height: 10%;
   width: 10%;
-  border-radius: 50%;
+  height: 10%;
 }
 
-.navbar {
-  width: 97%;
-  margin-top: 2%;
-  margin: auto;
-}
-
-h4 {
-  margin-left: 2%;
-  margin-top: 3%;
-}
-
-/* Background Image */ 
-.background {
-  margin-top: 2%;
-  height: 200%;
-  width: 100%;
-  margin-right: 0px;
-  margin-left: 0px;
-}
-
-/* Intro */
-h1 {
-  width: 30%;
-  margin: auto;
-}
-
-.ptd {
-  width: 35%;
-  margin: auto;
-  margin-top: 1%;
-}
-
-/* Shows product */
-.product {
+.logo-title {
   margin-top: 5%;
 }
 
-.product-1 {
-  width: 30%;
-  text-align: left;
-  margin-right: 28%;
-  margin-left: 4%;
-  margin-top: 5%;
-}
-
-.product-2 {
-  float: right;
-  width: 30%;
-  margin-top: 6%;
-  padding-bottom: 0%;
-}
-
-.product-title {
-  width: 47%;
-}
-
-.img-1 {
-  width: 30%;
-  height: 50%;
-  margin-top: 4%;
-}
-
-.img-caption {
-  width: 70%;
-  margin: auto;
-}
-
-.spec {
-  width: 25%;
-  height: auto;
-  margin-top: 2%;
-  text-align: left;
-  margin-left: 4%;
-  margin-right: 4.25%;
-  background-color: #16252A;
-  border-radius: 2%;
-  padding-right: 1%;
-}
-
-.infoIcon {
-  padding-left: 45%;
-  margin-top: 5%;
-}
-
-ul {
-  margin-top: 5%;
-}
-
-/* Leadership */
-.leadership {
-  margin-top: 4%;
-}
-
-.leadership-title {
-  width: 20%;
-  margin: auto;
-}
-
-.member1, .member2, .member3 {
-  width: 25%;
-  height: 100%;
-  border: solid 1px #16252A;
-  margin-top: 2%;
-}
-
-.member-img {
-  width: 40%;
-  height: 30%;
-  border: solid 1px #16252A;
-  border-radius: 50%;
-  margin-top: 3%;
-}
-
-.member-name {
-  margin-top: 3%;
-}
-
-.member-description{
-  text-align: justify;
+/* Product */
+/* Staff */
+.member {
+  border: solid black;
 }
 
 /* Contact */
-.contact {
-  margin-top: 2%;
-}
-
-.contact-header {
-  margin-top: 2%;
-  width: 47%;
-}
-
-.info {
-  width: 30%;
-  float: left;
-  text-align: left;
-  margin-left: 18%;
-}
-
-.form {
-  margin-right: 20%;
-  margin-top: 1%;
-}
-
-input, textarea {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  width: 125%;
-  border: solid 1px #16252A;
-  color: #16252A;
-  background-color: #DEF2F1;
-}
-
-.contactForm {
-  width: 40%;
-  background-color: #DEF2F1;
-  margin-right: 10%;
-  border-radius: 2%;
-}
-
 .message {
   height: 200px;
-  margin: auto;
   word-wrap: break-word;
 }
 
-.submit {
-  border: solid 1px #16252A;
+.form-item {
+  width: 50%;
+  margin: auto;
 }
-
-::placeholder {
-  color: #16252A;
-  opacity: 1; /* For all you firefox users :) */
-}
-
 /* Footer */
-footer {
-  margin-top: 2%;
-}
-
-.text {
-  margin-left: 4.5%;
-}
-
-.smbtns {
-  margin-left: 70%;
-  margin-top: 1%;
-}
-
-a {
-  color: #16252A;
-}
-
-.insta {
-  color: #DEF2F1;
-}
-
-.me {
-  border-bottom: solid #16252A 1px;
+.footer p {
+  text-align: left;
+  margin-left: 2%;
 }
 
 /* Media Queries */
-@media screen and (max-width: 900px) & (min-width: 700px) {
-  .member1, .member2, .member3 {
-    height: 200%;
-    width: 110%;
-  }
-  .leadership-title {
-    width: 80%;
-  }
-  .contact-header {
-    width: 250%;
-  }
-  .info-item {
-    width: 250%;
-  }
-  .product-title {
-    width: 150%;
-  }
-  .product-desc {
-    width: 150%;
-  }
-  .ptd {
-    width: 50%;
-  }
-  h1 {
-    width: 70%;
-  }
-  .img-1 {
+@media screen and (max-width: 600px) {
+  /* Widens most elements */
+  h1, .desc, .down-text, .title, .staff, .staff h2, .member, .footer {
     width: 100%;
   }
-  #product {
-    margin-top: 2%;
+  /* Contact (Media Query) */
+  .info, .info-item, .contact h2 {
+    text-align: left;
+    margin-left: 0px;
+    margin-bottom: 1%;
   }
-  .product-2 {
-    width: auto;
-  }
-  .spec {
+  .contact h2 {
     width: 100%;
   }
-  form {
-    padding-top: 0px;
-    padding-right: 0px;
-  }
-  .info {
-    margin-left: 10%;
+  .form-item {
     width: 100%;
-    min-width: 75%;
   }
-  .form {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 700px) & (min-width: 400px) {
-  .member1, .member2, .member3 {
-    height: 200%;
-    width: 110%;
-  }
-  .leadership-title {
-    width: 80%;
-  }
-  .contact-header {
-    width: 30%;
-  }
-  .info-item {
-    width: 250%;
-  }
-  .product-title {
-    width: 150%;
-  }
-  .product-desc {
-    width: 150%;
-  }
-  .ptd {
-    width: 50%;
-  }
-  h1 {
-    width: 70%;
-  }
-  .img-1 {
-    width: 50%;
-  }
-  #product {
-    margin-top: 2%;
-  }
-  .product-2 {
-    width: 60%;
-    margin-bottom: 3%;
-  }
-  body {
+  /* Footer (Media Query) */
+  .footer p {
     text-align: center;
-    float: none;
-  }
-  .spec {
-    width: 100%;
-    margin-top: 5%;
-  }
-  form {
-    padding-top: 0px;
-    padding-right: 0px;
-  }
-  #contactForm {
-    width: 100%;
-    padding-right: 0px;
-    margin-left: 15%;
-  }
-  .info {
-    margin-left: 25%;
-    width: 50%;
-  }
-  .contact-header {
-    width: auto;
-  }
-  #contact {
-    width: auto;
+    margin: auto;
   }
 }
-
-@media screen and (max-width: 400px) {
-  .member1, .member2, .member3 {
-    height: 200%;
-    width: 110%;
-    }
-  .leadership-title {
-      width: 80%;
-    }
-  .contact-header {
-      width: 30%;
-    }
-    .info-item {
-      width: 250%;
-    }
-    .product-title {
-      width: 300%;
-      text-align: center;
-    }
-    .product-desc {
-      width: 300%;
-      text-align: center;
-      font-size: 90%;
-    }
-    h1 {
-      width: 70%;
-    }
-    .img-1 {
-      width: 100%;
-      margin-left: 30%;
-      margin-right: 30%;
-    }
-    .img-caption {
-      width: 100%;
-      text-align: center;
-      margin-left: 30%;
-    }
-    #product {
-      margin-top: 2%;
-    }
-    .product-2 {
-      width: 60%;
-      margin-bottom: 3%;
-    }
-    body {
-      text-align: center;
-      float: none;
-    }
-    .spec {
-      width: 100%;
-      margin-top: 5%;
-    }
-    form {
-      padding-top: 0px;
-      padding-right: 0px;
-    }
-    #contactForm {
-      width: 100%;
-      padding-right: 0px;
-      margin-left: 15%;
-    }
-    .info {
-      margin-left: 10%;
-      width: 30%;
-      text-align: left;
-      font-size: 85%;
-    }
-    .contact-header {
-      width: 400%;
-      text-align: center;
-    }
-    #contact {
-      width: auto;
-    }
-  .navbar .right {
-    width: 5%;
-  }
-  }
