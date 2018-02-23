@@ -112,7 +112,7 @@ h1 {
 }
 
 /* Media Queries */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   /* Widens most elements */
   h1, .desc, .title, .staff, .staff h2, .member, .footer {
     width: 100%;
@@ -137,5 +137,9 @@ h1 {
   /* Info Row */
   .info-1, .info-2, .info-3 {
     width: 100%;
+  }
+  /* Members */
+  .member {
+    margin-bottom: 2%;
   }
 }
