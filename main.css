@@ -39,6 +39,8 @@ h2 {
 h1, h2, h3, h4 {
   font-family: 'Roboto Condensed', sans-serif;
   color: #16252A;
+  margin-top: 2%;
+  margin-bottom: 1%;
 }
 
 /* Intro Page */
@@ -47,6 +49,14 @@ h1 {
   border: solid black;
   font-family: sans-serif;
   width: 50%;
+}
+
+.logo {
+  margin-left: 2%;
+  border: solid #3AAFA9;
+  border-radius: 75%;
+  width: 10%;
+  height: 10%;
 }
 
 .background {
@@ -58,17 +68,15 @@ h1 {
   color: #16252A;
 }
 
-/* Navbar */
-.logo {
-  width: 10%;
-  height: 10%;
+/* Info-row */
+.info-1, .info-2, .info-3 {
+  width: 30%;
+  margin: auto;
+  margin-top: 1.5%;
+  background-color: #16252A;
+  color: #DEF2F1;
 }
 
-.logo-title {
-  margin-top: 5%;
-}
-
-/* Product */
 /* Staff */
 .member {
   border: solid black;
@@ -112,5 +120,9 @@ h1 {
   .footer p {
     text-align: center;
     margin: auto;
+  }
+  /* Info Row */
+  .info-1, .info-2, .info-3 {
+    width: 100%;
   }
 }
