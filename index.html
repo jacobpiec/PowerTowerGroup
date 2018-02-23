@@ -1,99 +1,128 @@
-<!DOCTYPE html>
-<html lang="">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Other metadata -->
-  <title>The Power Tower Group</title>
-  <!-- Bootstrap -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <!-- Font Awesome -->
-  <script src="https://use.fontawesome.com/4595b49cbd.js"></script>
-  <!-- CSS -->
-  <link rel="stylesheet" href="main.css">
-  <!-- Javascript & jQuery -->
-  <script
-  src="http://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-  <script src="scripts.js"></script>
-  <!-- Serif Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Merriweather|PT+Serif|Playfair+Display|Slabo+27px" rel="stylesheet">
-  <!-- Sans Serif Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300|Raleway|Roboto+Condensed|Source+Sans+Pro" rel="stylesheet">
-</head>
+/* To whole page */
+body {
+  text-align: center;
+  background-color: #3AAFA9;
+  color: #DEF2F1;
+  font-family: 'Playfair Display', sans-serif;
+}
 
-<body>
-  <div class="container-fluid">
-    <!-- Intro Page -->
-    <div class="intro">
-      <h1>Power Tower Group</h1>
-      <p class="desc ptgDesc">The power tower creates a revolution in the wireless charging industry. Being able to charge devices from up to three meters away, this prouct is like no other.</p>
-    </div>
-    <!-- Navbar (Should I keep?) 
-    <div class="nav row">
-      <div class="left row">
-        <!-- Logo 
-        <img src='https://s13.postimg.org/mppdq7e7b/IMG_4393.jpg' alt="Power Tower Group" class="logo">
-        <h3 class="logo-title">Power Tower Group</h3>
-      </div>
-      <div class="right">
-        <a class="btn product" href="#product"><p>Our Product</p></a>
-        <a class="btn staff" href="#staff"><p>Our Staff</p></a>
-        <a class="btn contact" href="#contact"><p>Contact</p></a>
-      </div>
-    </div>-->
-    <!-- Product -->
-    <div class="product" id="product">
-      <h2 class="title">Our Product</h2>
-      <p class="desc productDesc">Lightweight and stylish, the power tower developed by Power Tower Group is a revolutionary product fit for a king. With the ability to charge all devices from up to three meters away, the power tower is the wireless charger that can do more than any other wireless charger. Developed by a small team, the power tower is greater than all competition.</p>
-    </div>
-    <!-- Staff -->
-    <div class="staff" id="staff">
-      <h2>Our Staff</h2>
-      <div class="staffrow row">
-      <!-- Seth -->
-      <div class="member member1">
-        <img src="http://www.morza.com.tr/altalan/daloglu/img/baskan.png" class="profile">
-        <h3><u>Seth</u></h3>
-      </div>
-      <!-- Jarda --> 
-      <div class="member member2">
-        <img src="http://www.morza.com.tr/altalan/daloglu/img/baskan.png" class="profile">
-        <h3><u>Jarda</u></h3>
-      </div>
-      <!-- Alex -->
-      <div class="member member3">
-        <img src="http://www.morza.com.tr/altalan/daloglu/img/baskan.png" class="profile">
-        <h3><u>Alex</u></h3>
-      </div>
-      </div>
-    </div>
-    <!-- Contact -->
-    <div class="contact" id="contact">
-      <h2>Contact Us</h2>
-      <!-- Power Tower Group contact info -->
-      <div class="info">
-        <p class="info-item">Power Tower Group</p>
-        <p class="info-item">(999)-999-9999</p>
-        <p class="info-item">thepowertowergroup@gmail.com</p>
-        <a href="https://www.instagram.com/power_tower_group/" target="_blank" class="smbtn"><i class="fa fa-instagram smbtn"></i></a>
-      </div>
-      <!-- If you are reading this, then have a great day :) -->
-      <form class="form">
-        <input type="text" placeholder="Name" class="col-md-12 form-item">
-        <input type="email" placeholder="Email" class="col-md-12 form-item">
-        <textarea type="text" placeholder="Message" class="message col-md-12 form-item"></textarea>
-        <input type="submit" placeholder="Submit" class="col-md-12 btn btn-primary form-item">
-      </form>
-    </div>
-    <!-- Footer -->
-    <footer class="footer">
-      <p>&copy 2018 Power Tower Group</p>
-      <div class="row">
-      <p>Website developed by </p><a href="#" class="me"><p class="me">Jacob Pieczysnki</p></a>
-      </div>
-    </footer>
-  </div>
-</body>
-</html>
+* {
+  margin: auto;
+}
+
+.desc {
+  width: 35%;
+}
+
+a {
+  color: #DEF2F1;
+}
+
+a:hover {
+  color: #f3fffd;
+}
+
+p {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: solid black;
+  width: 20%;
+  margin: auto;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #16252A;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+/* Intro Page */
+h1 {
+  margin-top: 3%;
+  border: solid black;
+  font-family: sans-serif;
+  width: 50%;
+}
+
+.logo {
+  margin-left: 2%;
+  border: solid #3AAFA9;
+  border-radius: 75%;
+  width: 10%;
+  height: 10%;
+}
+
+.background {
+  width: 75%;
+  margin-top: 1.5%;
+}
+
+.me {
+  color: #16252A;
+}
+
+/* Info-row */
+.info-1, .info-2, .info-3 {
+  width: 30%;
+  margin: auto;
+  margin-top: 1.5%;
+  background-color: #16252A;
+  color: #DEF2F1;
+}
+
+/* Staff */
+.member {
+  border: solid black;
+}
+
+/* Contact */
+.message {
+  height: 200px;
+  word-wrap: break-word;
+}
+
+.form-item {
+  width: 50%;
+  margin: auto;
+}
+/* Footer */
+.footer p {
+  text-align: left;
+  margin-left: 2%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  /* Widens most elements */
+  h1, .desc, .title, .staff, .staff h2, .member, .footer {
+    width: 100%;
+  }
+  /* Contact (Media Query) */
+  .info, .info-item, .contact h2 {
+    text-align: left;
+    margin-left: 0px;
+    margin-bottom: 1%;
+  }
+  .contact h2 {
+    width: 100%;
+  }
+  .form-item {
+    width: 100%;
+  }
+  /* Footer (Media Query) */
+  .footer p {
+    text-align: center;
+    margin: auto;
+  }
+  /* Info Row */
+  .info-1, .info-2, .info-3 {
+    width: 100%;
+  }
+}
