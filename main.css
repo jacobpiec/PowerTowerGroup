@@ -54,7 +54,7 @@ h1 {
 .logo {
   margin-left: 2%;
   border: solid #3AAFA9;
-  border-radius: 75%;
+  border-radius: 100%;
   width: 10%;
   height: 10%;
 }
@@ -70,16 +70,29 @@ h1 {
 
 /* Info-row */
 .info-1, .info-2, .info-3 {
-  width: 30%;
+  width: 33%;
+  height: 100%;
   margin: auto;
   margin-top: 1.5%;
   background-color: #16252A;
   color: #DEF2F1;
 }
 
+.info-row i {
+  margin-bottom: 2.5%;
+  margin-top: 2.5%;
+}
+
 /* Staff */
 .member {
   border: solid black;
+}
+
+.profile {
+  width: 25%;
+  height: 25%;
+  border: solid;
+  border-radius: 50%;
 }
 
 /* Contact */
